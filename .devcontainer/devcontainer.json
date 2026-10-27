@@ -1,0 +1,11 @@
+{
+  "name": "Laravel 12 PHP 8.3",
+  "image": "mcr.microsoft.com/devcontainers/php:8.3-bookworm",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Laravel Student Management",
+      "onAutoForward": "notify"
+    }
+  }
+}
